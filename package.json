@@ -1,0 +1,21 @@
+{
+  "name": "redux-saga-shopping-cart",
+  "version": "0.0.1",
+  "description": "A shopping cart written with React + Redux + Saga.",
+  "author": "Andrew Schneider (https://www.schnogz.com)",
+  "repository": "git@github.com:schnogz/redux-saga-shopping-cart.git",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "cd packages/client && npm run test",
+    "serve": "cd packages/server && npm run start",
+    "start": "cd packages/client && npm run start"
+  },
+  "devDependencies": {
+    "lerna": "^2.8.0"
+  },
+  "dependencies": {
+    "redux-saga": "^0.16.0"
+  }
+}
